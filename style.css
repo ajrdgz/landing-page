@@ -1,14 +1,56 @@
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 
-.header {
+.header,
+.hero,
+.footer {
     background-color: #1f2937;
-    display: flex;
+
+}
+
+.hero-main,
+.logo {
+    color: #f9faf8;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary, 
+.footer,
+.links {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.button, 
+.call {
+    background-color: #3882f6;
+}
+
+.info-header,
+.quote {
+    color: #1f2937;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+
+
+.header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 48px;
@@ -19,7 +61,6 @@ body {
     display: flex;
     align-items: center;
     font-family: 'Sarina', cursive;
-    color: #f9faf8;
     font-size: 24px;
 
 }
@@ -28,5 +69,11 @@ body {
 .links {
     display: flex;
     gap: 32px;
+
+}
+
+.hero {
+    display: flex;
+
 
 }
