@@ -22,14 +22,14 @@ body {
     font-weight: 900;
 }
 
-.hero-secondary, 
+.hero-secondary,
 .footer,
 .links {
     color: #e5e7eb;
     font-size: 18px;
 }
 
-.button, 
+.button,
 .call {
     background-color: #3882f6;
 }
@@ -69,7 +69,7 @@ body {
 
 .links {
     display: flex;
-    gap: 32px;
+    gap: 48px;
 
 }
 
@@ -92,4 +92,35 @@ body {
     font-weight: bold;
     padding: 8px 20px;
     margin: 8px 0;
+}
+
+.info {
+    padding: 48px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+}
+
+.info-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 48px;
+    gap: 48px;
+
+
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+.subtxt {
+    max-width: 150px;
 }
