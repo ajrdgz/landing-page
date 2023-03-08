@@ -11,6 +11,7 @@ body {
 
 }
 
+.button,
 .hero-main,
 .logo {
     color: #f9faf8;
@@ -74,6 +75,21 @@ body {
 
 .hero {
     display: flex;
+    padding: 48px;
+    justify-content: space-around;
 
+}
 
+.hero-img {
+    background-color: #333;
+    width: 50%;
+}
+
+.button {
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin: 8px 0;
 }
